@@ -191,6 +191,8 @@
             [self performSelectorOnMainThread:@selector(stopReading) withObject:nil waitUntilDone:NO];
             _isReading = NO;
             NSLog(@"%@",[metadataObj stringValue]);
+            
+//            在主队咧中进行push
             dispatch_async(dispatch_get_main_queue(), ^{
                                 
                 WebviewController *webView = [[WebviewController alloc]init];
