@@ -26,7 +26,7 @@
     
     
     
-    
+    //由于uiwebview使用会导致内存泄露   现在用wkwebview
     self.view.backgroundColor = [UIColor whiteColor];
     webView = [[WKWebView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-40)];
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:_webURL]]];
