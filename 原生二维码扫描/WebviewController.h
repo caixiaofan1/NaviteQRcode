@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebviewController.h
 //  原生二维码扫描
 //
 //  Created by tcyf-2 on 16/3/22.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewcontroller.h"
-@interface ViewController :BaseViewcontroller
 
+@interface WebviewController : UIViewController
 
+@property (nonatomic,strong) NSString *webURL;
 @end
-

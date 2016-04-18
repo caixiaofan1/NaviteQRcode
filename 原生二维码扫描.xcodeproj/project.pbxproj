@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		236C89491CC51AF500135A02 /* LayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 236C89461CC51AF500135A02 /* LayerView.m */; };
+		236C894A1CC51AF500135A02 /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 236C89481CC51AF500135A02 /* QRViewController.m */; };
+		236C894F1CC51B6700135A02 /* BaseViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 236C894C1CC51B6700135A02 /* BaseViewcontroller.m */; };
+		236C89501CC51B6700135A02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 236C894E1CC51B6700135A02 /* ViewController.m */; };
 		78F9131E1CA137B300A03186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F9131D1CA137B300A03186 /* main.m */; };
 		78F913211CA137B300A03186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F913201CA137B300A03186 /* AppDelegate.m */; };
-		78F913241CA137B300A03186 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F913231CA137B300A03186 /* ViewController.m */; };
-		78F913271CA137B300A03186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F913251CA137B300A03186 /* Main.storyboard */; };
 		78F913291CA137B300A03186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F913281CA137B300A03186 /* Assets.xcassets */; };
 		78F9132C1CA137B300A03186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F9132A1CA137B300A03186 /* LaunchScreen.storyboard */; };
 		78F913371CA137B300A03186 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F913361CA137B300A03186 /* _______Tests.m */; };
 		78F913421CA137B300A03186 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F913411CA137B300A03186 /* _______UITests.m */; };
+		78F913501CA137C400A03186 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F9134F1CA137C400A03186 /* AVFoundation.framework */; };
+		78F913561CA14B1D00A03186 /* WebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F913551CA14B1D00A03186 /* WebviewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +39,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		236C89451CC51AF500135A02 /* LayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerView.h; sourceTree = "<group>"; };
+		236C89461CC51AF500135A02 /* LayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerView.m; sourceTree = "<group>"; };
+		236C89471CC51AF500135A02 /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRViewController.h; sourceTree = "<group>"; };
+		236C89481CC51AF500135A02 /* QRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRViewController.m; sourceTree = "<group>"; };
+		236C894B1CC51B6700135A02 /* BaseViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewcontroller.h; sourceTree = "<group>"; };
+		236C894C1CC51B6700135A02 /* BaseViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewcontroller.m; sourceTree = "<group>"; };
+		236C894D1CC51B6700135A02 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		236C894E1CC51B6700135A02 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78F913191CA137B300A03186 /* 原生二维码扫描.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "原生二维码扫描.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F9131D1CA137B300A03186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78F9131F1CA137B300A03186 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78F913201CA137B300A03186 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		78F913221CA137B300A03186 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		78F913231CA137B300A03186 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		78F913261CA137B300A03186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78F913281CA137B300A03186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78F9132B1CA137B300A03186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78F9132D1CA137B300A03186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +60,9 @@
 		78F9133D1CA137B300A03186 /* 原生二维码扫描UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "原生二维码扫描UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F913411CA137B300A03186 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		78F913431CA137B300A03186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F9134F1CA137C400A03186 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		78F913541CA14B1D00A03186 /* WebviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebviewController.h; sourceTree = "<group>"; };
+		78F913551CA14B1D00A03186 /* WebviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebviewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F913501CA137C400A03186 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,7 @@
 		78F913101CA137B200A03186 = {
 			isa = PBXGroup;
 			children = (
+				78F9134F1CA137C400A03186 /* AVFoundation.framework */,
 				78F9131B1CA137B300A03186 /* 原生二维码扫描 */,
 				78F913351CA137B300A03186 /* 原生二维码扫描Tests */,
 				78F913401CA137B300A03186 /* 原生二维码扫描UITests */,
@@ -101,11 +115,18 @@
 		78F9131B1CA137B300A03186 /* 原生二维码扫描 */ = {
 			isa = PBXGroup;
 			children = (
+				236C894B1CC51B6700135A02 /* BaseViewcontroller.h */,
+				236C894C1CC51B6700135A02 /* BaseViewcontroller.m */,
+				236C894D1CC51B6700135A02 /* ViewController.h */,
+				236C894E1CC51B6700135A02 /* ViewController.m */,
+				236C89451CC51AF500135A02 /* LayerView.h */,
+				236C89461CC51AF500135A02 /* LayerView.m */,
+				236C89471CC51AF500135A02 /* QRViewController.h */,
+				236C89481CC51AF500135A02 /* QRViewController.m */,
 				78F9131F1CA137B300A03186 /* AppDelegate.h */,
 				78F913201CA137B300A03186 /* AppDelegate.m */,
-				78F913221CA137B300A03186 /* ViewController.h */,
-				78F913231CA137B300A03186 /* ViewController.m */,
-				78F913251CA137B300A03186 /* Main.storyboard */,
+				78F913541CA14B1D00A03186 /* WebviewController.h */,
+				78F913551CA14B1D00A03186 /* WebviewController.m */,
 				78F913281CA137B300A03186 /* Assets.xcassets */,
 				78F9132A1CA137B300A03186 /* LaunchScreen.storyboard */,
 				78F9132D1CA137B300A03186 /* Info.plist */,
@@ -207,6 +228,7 @@
 				TargetAttributes = {
 					78F913181CA137B300A03186 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 28QAK8GEY6;
 					};
 					78F913311CA137B300A03186 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -245,7 +267,6 @@
 			files = (
 				78F9132C1CA137B300A03186 /* LaunchScreen.storyboard in Resources */,
 				78F913291CA137B300A03186 /* Assets.xcassets in Resources */,
-				78F913271CA137B300A03186 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78F913241CA137B300A03186 /* ViewController.m in Sources */,
+				236C89501CC51B6700135A02 /* ViewController.m in Sources */,
 				78F913211CA137B300A03186 /* AppDelegate.m in Sources */,
+				236C894F1CC51B6700135A02 /* BaseViewcontroller.m in Sources */,
 				78F9131E1CA137B300A03186 /* main.m in Sources */,
+				236C894A1CC51AF500135A02 /* QRViewController.m in Sources */,
+				78F913561CA14B1D00A03186 /* WebviewController.m in Sources */,
+				236C89491CC51AF500135A02 /* LayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		78F913251CA137B300A03186 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78F913261CA137B300A03186 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		78F9132A1CA137B300A03186 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,9 +428,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "原生二维码扫描/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "H.-------";
+				PRODUCT_BUNDLE_IDENTIFIER = caixiaofan.QRcode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -422,9 +441,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "原生二维码扫描/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "H.-------";
+				PRODUCT_BUNDLE_IDENTIFIER = caixiaofan.QRcode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -496,6 +517,7 @@
 				78F913481CA137B300A03186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78F913491CA137B300A03186 /* Build configuration list for PBXNativeTarget "原生二维码扫描Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +526,7 @@
 				78F9134B1CA137B300A03186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78F9134C1CA137B300A03186 /* Build configuration list for PBXNativeTarget "原生二维码扫描UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +535,7 @@
 				78F9134E1CA137B300A03186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
